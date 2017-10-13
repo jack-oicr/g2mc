@@ -8,7 +8,6 @@
 /* blue : #3C6794 */
 /* List theme colours here */
 /* Global Fixes -------------------------------------------------------------- */
-
 html * {
   max-height: 999999px;
   /* Fix: Chrome/Android */
@@ -48,14 +47,12 @@ ul {
   padding: 0;
 }
 /* Basic Typography & Colors -------------------------------------------------*/
-
 body {
   color: #4c4c4c;
   margin: auto;
   max-width: 1440px;
 }
 /* Headings */
-
 h1 {
   font-size: 53px;
   font-family: 'Lato', sans-serif;
@@ -68,6 +65,7 @@ h2 {
   font-family: 'Lato', sans-serif;
 }
 /* Anchors */
+
 a:active,
 a:focus,
 a:hover {
@@ -75,7 +73,6 @@ a:hover {
   text-decoration: underline;
 }
 /*Specific Typography---------------------------------------------------------*/
-
 .element-hidden {
   display: none;
 }
@@ -142,7 +139,6 @@ a:hover {
   text-decoration: underline;
 }
 /* HTML Elements -------------------------------------------------------------*/
-
 li,
 p {
   font-size: 16px;
@@ -162,7 +158,6 @@ hr {
   background: none repeat scroll 0 0 #5A80A7;
 }
 /* Footer elements */
-
 footer.wrapper ol,
 footer.wrapper ul {
   margin-top: 1.1665em;
@@ -177,7 +172,6 @@ footer.wrapper p {
 }
 /* Site Info
 -------------------------------------------------------------- */
-
 #site-logo img {
   width: 300px;
   height: auto;
@@ -204,11 +198,11 @@ footer.wrapper p {
   }
 }
 /* All Containers & Regions (including .page-wrapper, .page) -----------------*/
+
 .page-wrapper {
   overflow: hidden;
 }
 /*jumbotron-------------------------------------------------- */
-
 .jumbotron {
   background-image: url("../../images/banner.png");
   background-repeat: no-repeat;
@@ -246,6 +240,7 @@ footer.wrapper p {
 }
 /* Main-------------------------------------------------------------- */
 /* Navigation-------------------------------------------------------------- */
+
 .navbar-fixed-top,
 .navbar-static-top {
   /* Override bootstrap.css */
@@ -266,14 +261,12 @@ nav.navbar {
   margin-top: 2em;
 }
 /* Navbar collapse-------------------------------------------------------------- */
-
 .navbar-collapse > nav {
   padding-top: 1em;
   text-align: right;
 }
 
 .navbar-collapse > nav > div {
-  margin-top: 20px;
   display: inline-block;
   vertical-align: middle;
   text-align: right;
@@ -285,20 +278,14 @@ nav.navbar {
   */
 }
 @media (max-width: 1199px) {
-  .nav {
-    position: absolute;
-    bottom: 15px;
-    text-align: right;
-  }
+  .nav {}
 
   .navbar-collapse > nav > div {
     width: 23%;
   }
 }
 @media (max-width: 991px) {
-  .navbar-collapse {
-    position: relative;
-  }
+  .navbar-collapse {}
 
   .nav-navbar {
     margin-top: 1.5em;
@@ -311,10 +298,6 @@ nav.navbar {
   .navbar-collapse > nav > div {
     width: 29%;
   }
-
-  .navbar-collapse > nav > div.menu-main-menu {
-    bottom: 15px;
-  }
 }
 @media (max-width: 767px) {
   .container > .navbar-collapse {
@@ -324,7 +307,6 @@ nav.navbar {
   }
 
   .navbar-collapse > nav {
-    margin-top: 30px;
     padding-top: 0;
     text-align: left;
     padding-right: 0;
@@ -342,7 +324,6 @@ nav.navbar {
   .navbar-collapse > nav > div.menu-main-menu {
     border-top: none;
     padding-top: 0;
-    margin-bottom: -1em;
   }
 
   .navbar-collapse > nav > div,
@@ -356,7 +337,6 @@ nav.navbar {
 }
 /**HEADER Container & Regions-------------------------------------------------*/
 /* NAV Container & Regions----------------------------------------------------*/
-
 .navbar-fixed-top,
 .navbar-static-top {
   /* Override bootstrap.css */
@@ -381,7 +361,6 @@ nav.navbar {
   background-color: #3C6794;
 }
 /* Navbar collapse */
-
 .dropdown-menu {
   left: 5px;
   padding: 0;
@@ -399,12 +378,12 @@ nav.navbar {
   background-color: #3C6794;
 }
 /* Content Region ----------------------------------------------------------- */
-
 .content {
   padding: 25px;
   margin-bottom: 10px;
 }
 /* banner content ------------------------------------------------------------*/
+
 .banner {
   display: flex;
   justify-content: center;
@@ -419,7 +398,6 @@ nav.navbar {
 }
 /* Content: Place content type name here */
 /* Working Groups Content ----------------------------------------------------*/
-
 .icon-working-group {
   padding-top: 6em;
   color: black;
@@ -482,7 +460,6 @@ nav.navbar {
   background-image: url("../../images/icon-policy.svg");
 }
 /* Join Us Content -----------------------------------------------------------*/
-
 .world-map {
   background-image: url("../../images/map.png");
   background-position: right;
@@ -543,7 +520,6 @@ nav.navbar {
   }
 }
 /* FOOTER container and regions ----------------------------------------------*/
-
 footer.wrapper {
   background-color: #3C6794;
   color: #fff;
@@ -575,7 +551,6 @@ footer.wrapper .row > div.menu-footer-menu {
 /* Menus /-------------------------------------------------------------- */
 /* Menus: Main menu
 /-------------------------------------------------------------- */
-
 .menu-main-menu .nav ul {
   padding-top: 0;
   padding-bottom: 0;
@@ -596,7 +571,6 @@ footer.wrapper .row > div.menu-footer-menu {
   font-size: 1.05em;
   /* 16px/14px */
   line-height: 21px;
-  border-top: 1px solid #d4dcde;
 }
 
 .menu-main-menu .nav > li > a:active,
@@ -761,7 +735,6 @@ footer.wrapper .row > div.menu-footer-menu {
   }
 }
 /* Footer menus---------------------------------------------------------------*/
-
 .menu-footer-menu {
   display: flex;
   align-items: stretch;
