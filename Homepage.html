@@ -31,18 +31,23 @@
 
 
       <!-- Navbar -->
+
       <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
+        <div class="container container-nav">
 
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
 
             <!-- Site info / Navbar brand -->
-            <a href="/" title="Home" rel="home" id="site-logo" class="logo navbar-brand"> <img src="images/G2MC_Logo_Final.png" alt="G2MC"/></a>
+            <a href="#" title="Home" rel="home" id="site-logo" class="logo navbar-brand"> <img src="images/G2MC_Logo_Final.png" alt="G2MC"/></a>
 
             <!-- Navbar toggle -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
           </div>
           <!-- .navbar-header -->
 
@@ -64,7 +69,7 @@
 
               <!-- Main menu -->
               <div class="menu-main-menu">
-                <ul id="nav-main-menu" class="nav navbar-nav">
+                <ul id="nav-main-menu" class="nav navbar-nav ">
                   <!--
                   <li role="presentation" class="dropdown">
                     <a href="" class="dropdown-toggle text-uppercase" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
@@ -80,17 +85,16 @@
                   <li role="presentation" class="text-uppercase"><a href="">working groups</a></li>
                   <li role="presentation" class="text-uppercase"><a href="">events</a></li>
                   -->
-                  <li role="presentation" class="text-uppercase"><a href="">Contact Us</a></li>
+                  <li role="presentation" class="text-uppercase"><a href="ContactUs.html">Contact Us</a></li>
                 </ul>
+                <!-- main menu -->
               </div>
-
             </nav>
+            <!-- .navbar-collapse -->
           </div>
-          <!-- .navbar-collapse -->
+          <!-- .container -->
         </div>
-        <!-- .container -->
       </nav>
-      <!-- .navbar -->
 
       <!-- jumbotron -->
       <div class="jumbotron wrapper">
@@ -100,18 +104,17 @@
             <h1>Genomic Medicine in Clinical Care</h1>
             <hr>
             <p>The Global Genomic Medicine Collaborative (G2MC) was established to recognize and harness activities implementing and shaping genomic medicine around the globe.</p>
-            <p><span>The main goals of the Global Genomic Medicine Collaborative are to:</span></p>
+            <span><p>The main goals of the Global Genomic Medicine Collaborative are to:</p></span>
             <ul>
-              <li>Create a vibrant community of global leaders in genomic medicine implemntation</li>
-              <li>Capture, share, and disseminate best practices for genomic medicine</li>
-              <li>Serve as nexus, clearing house, and knowledge base for genomic medicine activities</li>
-              <li>Develop opportunities for collaborative genomic medicine demonstration projects focused on clinical implementation and outcomes research</li>
-              <li>Assist our members in developing strategies for clinical implementation of genomic medicine and evidence generation to support its sustainability</li>
+              <li><span>Create a vibrant community of global leaders in genomic medicine implemntation</span></li>
+              <li><span>Capture, share, and disseminate best practices for genomic medicine</span></li>
+              <li><span>Serve as nexus, clearing house, and knowledge base for genomic medicine activities</span></li>
+              <li><span>Develop opportunities for collaborative genomic medicine demonstration projects focused on clinical implementation and outcomes research</span></li>
+              <li><span>Asist our members in developing strategies for clinical implementation of genomic medicine and evidence generation to suport its sustainability</span></li>
             </ul>
             <!-- Taken out of Oct 17 launch
               <a href="" class="btn red-btn">About Us</a>
-              <a href="" class="btn red-btn">Genomic Medicine</a>
-            -->
+                    <a href="" class="btn red-btn">Genomic Medicine</a> -->
           </div>
         </div>
       </div>
@@ -123,23 +126,22 @@
             <section class="col-md-12">
 
               <!--Working Groups -->
-              <div class="working-groups row">
+              <div class="working-groups">
                 <div class="working-groups-content content">
                   <h2 class="title">How We Work</h2>
                   <p class="blue-text">G2MC formed six working groups to support its activities:</p>
                 </div>
-                <ul>
-                  <li id="education" class="col-xs-6 col-md-2 icon-working-group"><a href="">Education</a></li>
-                  <li id="evidence" class="col-xs-6 col-md-2 icon-working-group"><a href="">Evidence</a></li>
-                  <li id="it-bio" class="col-xs-6 col-md-2 icon-working-group"><a href="">IT/Bioinformatics</a></li>
-                  <li id="national" class="col-xs-6 col-md-2 icon-working-group"><a href="">National Programs and Implementation</a></li>
-                  <li id="pharma" class="col-xs-6 col-md-2 icon-working-group"><a href="">Pharmacogenomics (PGx)</a></li>
-                  <li id="policy" class="col-xs-6 col-md-2 icon-working-group"><a href="">Policy</a></li>
+                <ul class="working-groups-icons row">
+                  <li id="education" class="col-xs-6 col-md-2 icon-working-group"><strong>Education</strong></li>
+                  <li id="evidence" class="col-xs-6 col-md-2 icon-working-group"><strong>Evidence</strong></li>
+                  <li id="it-bio" class="col-xs-6 col-md-2 icon-working-group"><strong>IT/Bioinformatics</strong></li>
+                  <li id="national" class="col-xs-6 col-md-2 icon-working-group"><strong>National Programs and Implementation</strong></li>
+                  <li id="pharma" class="col-xs-6 col-md-2 icon-working-group"><strong>Pharmacogenomics (PGx)</strong></li>
+                  <li id="policy" class="col-xs-6 col-md-2 icon-working-group"><strong>Policy</strong></li>
                 </ul>
               </div>
               <!-- Working Groups -->
               <hr>
-
               <!-- Join Our Community -->
               <div class="g2mc-join-us row world-map">
                 <div class="col-md-4 content join-us-content">
@@ -150,7 +152,7 @@
                     <li>Discover Implementation Opportunities</li>
                     <li>Contribute to Demonstration Projects</li>
                   </ul>
-                  <a href="" class="btn red-btn">Contact Use to Learn More</a>
+                  <a href="ContactUs.html" class="btn red-btn">Contact Use to Learn More</a>
                 </div>
                 <!-- join our community -->
               </div>
@@ -162,7 +164,6 @@
         </div>
         <!-- wrapper-main -->
       </div>
-
 
       <!-- footer -->
       <footer class="wrapper">
@@ -213,7 +214,7 @@
             <!-- The Fine Print -->
             <div class="menu-fine-print text-center">
               <p>@2017 Global Genomic Medicine Collaborative. All rights reserved.</p>
-              <a href="" id="footer-contact-btn" title="Contact Us" class="btn">Contact Us</a>
+              <a href="ContactUs.html" id="footer-contact-btn" title="Contact Us" class="btn">Contact Us</a>
             </div>
 
             <!-- .row -->
@@ -222,7 +223,6 @@
         </div>
         <!-- footer.wrapper -->
       </footer>
-
     </div>
   </div>
 
